@@ -6,7 +6,7 @@ Use a loop in main() to create all those threads. Apply all the things you've le
 and joining threads from previous chapters. 
 
 Write one testStack function, and use it as the entry point for each thread. 
-
+h
 The testStack function should intermix 3 push operations with 3 pop operations in a loop that 
 executes 500 times. 
 
@@ -16,3 +16,4 @@ gcc -pthread stack-ptr.c -o stack-ptr is an example command to compile and link
 your program 
 
 # os_3
+
